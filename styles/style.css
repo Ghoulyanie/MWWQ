@@ -1,0 +1,118 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    background: #F8F8F8;
+}
+
+.app-header{
+    position: absolute;
+    background: #191919;
+    width: 100%;
+    height: 50px;
+}
+main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+}
+.cover-container{
+    width: 450px;
+    height: 450px;
+    border: 2px solid #000;
+    background: #F46E6E;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.note{
+    font-size: 150px;
+    font-family: 'Kurale', serif;
+}
+
+.time-statusbar-container{
+    margin-top: 22px;
+    display: flex;
+    align-items: center;  
+    width: 454px;
+    height: 13px;
+    background: #191919;
+}
+
+.time-statusbar{
+    margin: 5px;
+    width: 155px;
+    height: 3px;
+    background: #F46E6E;
+}
+
+.volume-statusbar-container{
+    margin-top: 20px;
+    width: 454px;
+    height: 13px;
+    background: #191919;
+}
+
+.volume-statusbar{
+    margin: 5px;
+    width: 388px;
+    height: 3px;
+    background: #76CEEA;
+}
+
+body::-webkit-scrollbar {
+    width: 7px; /* Ширина всего элемента навигации */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: none; /* Цвет дорожки */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #191919; /* Цвет бегунка */
+  }
